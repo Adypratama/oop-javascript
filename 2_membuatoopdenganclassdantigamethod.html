@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="membuat_oop_dengan_class_dan_tiga_method.js"></script>
+</head>
+<body>
+
+<script>
+
+    class Mobil {
+        merekMobil(merekMobil) {
+            console.info(`Merek Mobil ${merekMobil}`);
+        }
+        
+        jenisMobil(jenisMobil) {
+            console.info(`Jenis Mobil ${jenisMobil}`);
+        }
+
+        tahunMobil(tahunMobil) {
+            console.info(`Tahun Mobil ${tahunMobil}`);
+        }
+    }
+
+    const toyota = new Mobil("Toyota");
+    const bmw = new Mobil("BMW");
+    const jeep = new Mobil("Jeep");
+
+    console.info(toyota);
+    console.info(bmw);
+    console.info(jeep);
+
+    toyota.merekMobil("Toyota");
+    bmw.merekMobil("BMW");
+    jeep.merekMobil("JEEP");
+
+    toyota.jenisMobil("ALPHARD");
+    bmw.jenisMobil("M3");
+    jeep.jenisMobil("RUBICON");
+    
+    toyota.tahunMobil("2020");
+    bmw.tahunMobil("2019");
+    jeep.tahunMobil("2021");
+
+</script>
+
+    
+</body>
+</html>
